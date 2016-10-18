@@ -1,4 +1,5 @@
 # [H]unt3r Personal Site
+[![Build Status](https://travis-ci.org/hunter32292/hunter32292.svg?branch=master)](https://travis-ci.org/hunter32292/hunter32292)
 
 [hunter32292.github.io](http://hunter32292.github.io/)
 A simple personal site running on github pages, currently running with angular and bootstrap.
