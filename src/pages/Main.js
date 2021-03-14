@@ -1,4 +1,5 @@
 import React from 'react'
+import ProfilePic from '../assets/images/profile.jpg'
 import { Grid, Image, Header } from 'semantic-ui-react'
 
 
@@ -12,7 +13,7 @@ const MainPage = () => (
             </p>
         </Grid.Column>
         <Grid.Column>
-          <Image src={require('../assets/images/profile.jpg')} size='small' circular />
+          <Image src={ProfilePic} size='small' circular />
         </Grid.Column>
       </Grid.Row>
   
