@@ -1,4 +1,8 @@
 import React from 'react'
+import Joynt from '../assets/images/joynt.jpg'
+import Racys from '../assets/images/racys.jpg'
+import Starwars from '../assets/images/starwars.jpg'
+import Hackathon from '../assets/images/hackathon.jpg'
 import { Segment, Header, Grid, Image, Divider } from 'semantic-ui-react'
 
 
@@ -7,16 +11,16 @@ const AboutPage = () => (
         <Grid stackable >
             <Grid.Row columns={4}>
                 <Grid.Column>
-                    <Image src={require('../assets/images/joynt.jpg')}  size='medium' rounded />
+                    <Image src={Joynt} size='medium' rounded />
                 </Grid.Column>
                 <Grid.Column>
-                    <Image src={require('../assets/images/racys.jpg')}  size='medium' rounded />
+                    <Image src={Racys} size='medium' rounded />
                 </Grid.Column>
                 <Grid.Column>
-                    <Image src={require('../assets/images/starwars.jpg')}  size='medium' rounded />
+                    <Image src={Starwars} size='medium' rounded />
                 </Grid.Column>
                 <Grid.Column>
-                    <Image src={require('../assets/images/hackathon.jpg')}  size='medium' rounded />
+                    <Image src={Hackathon} size='medium' rounded />
                 </Grid.Column>
             </Grid.Row>
         </Grid>

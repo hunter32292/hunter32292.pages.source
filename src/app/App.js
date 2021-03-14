@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route, HashRouter } from 'react-router-dom';
 // import { browserHistory } from 'react-router'
 import {
   Container,
@@ -17,22 +17,22 @@ class App extends Component {
   render() {
     return (
   <div>
-    <Router>
+    <HashRouter>
       <div>
       <Head />
         <Container text style={{ marginTop: '7em' }}>
           <Route name='main' exact path='/' component={MainPage} />
-          <Route name='about' exact path='/about' component={AboutPage} />
-          <Route name='resume' exact path='/resume' component={ResumePage} />
-          <Route name='contact' exact path='/contact' component={ContactPage} />
-          <Route name='site' exact path='/site' component={SitePage} />
+          <Route name='about' path='/about' component={AboutPage} />
+          <Route name='resume' path='/resume' component={ResumePage} />
+          <Route name='contact' path='/contact' component={ContactPage} />
+          <Route name='site' path='/site' component={SitePage} />
         </Container>
 
         <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
           <Footer/>
         </Segment>
       </div>
-    </Router>
+    </HashRouter>
   </div>
 );
 }
