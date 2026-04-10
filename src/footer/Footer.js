@@ -21,10 +21,10 @@ class Footer extends Component {
                 <Grid.Column>
                     <h4 className="white-text">Favorite Links</h4>
                     <List>
-                        <List.Item><a className="white-text" href="http://www.coven.link">Coven</a></List.Item>
-                        <List.Item><a className="white-text" href="http://www.unsplash.com">Unsplash</a></List.Item>
-                        <List.Item><a className="white-text" href="http://www.codepen.io">Codepen</a></List.Item>
-                        <List.Item><a className="white-text" href="http://materializecss.com">Materialize</a></List.Item>
+                        <List.Item><a className="white-text" href="https://www.coven.link">Coven</a></List.Item>
+                        <List.Item><a className="white-text" href="https://www.unsplash.com">Unsplash</a></List.Item>
+                        <List.Item><a className="white-text" href="https://www.codepen.io">Codepen</a></List.Item>
+                        <List.Item><a className="white-text" href="https://materializecss.com">Materialize</a></List.Item>
                     </List>
                 </Grid.Column>
                 <Grid.Column>
@@ -38,7 +38,7 @@ class Footer extends Component {
                 </Grid.Row>
                 <Grid.Row columns={2}>
                 <Grid.Column columns={3} >
-                    &copy; John Stupka - 2019
+                    &copy; John Stupka - 2026
                     <br />
                     <a href="mailto:jrstupkadev@gmail.com">Message Me</a>
                 </Grid.Column>
